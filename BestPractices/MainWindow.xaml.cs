@@ -11,9 +11,9 @@ using System.Windows.Interop;
 
 namespace active_directory_wpf_msgraph_v2
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    // NB: this WPF app is used in various M$ Identity training videos, e.g:
+    // "Microsoft identity platform’s permissions and consent framework": https://www.youtube.com/watch?v=toAWRNqqDL4&list=PLLasX02E8BPBxGouWlJV-u-XZWOc2RkiX&index=3
+    // "Microsoft identity platform best practices for developers": https://www.youtube.com/watch?v=KoOCIwUDpjI
     public partial class MainWindow : Window
     {
         public IPublicClientApplication _clientApp = null;

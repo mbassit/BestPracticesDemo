@@ -7,7 +7,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
         Title="Microsoft Identity Platform Best Practices" 
-        WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        WindowStartupLocation="CenterScreen" WindowState="Normal">
 
     <Window.Resources>
         <ResourceDictionary>
