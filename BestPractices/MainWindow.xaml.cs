@@ -12,8 +12,9 @@ using System.Windows.Interop;
 namespace active_directory_wpf_msgraph_v2
 {
     // NB: this WPF app is used in various M$ Identity training videos, e.g:
-    // "Microsoft identity platform’s permissions and consent framework": https://www.youtube.com/watch?v=toAWRNqqDL4&list=PLLasX02E8BPBxGouWlJV-u-XZWOc2RkiX&index=3
+    // "Microsoft identity platform's permissions and consent framework": https://www.youtube.com/watch?v=toAWRNqqDL4&list=PLLasX02E8BPBxGouWlJV-u-XZWOc2RkiX&index=3
     // "Microsoft identity platform best practices for developers": https://www.youtube.com/watch?v=KoOCIwUDpjI
+    // "Develop multi-tenant applications with Microsoft identity platform-April 2020" (explaining the meaning of "/Common" "/Consumer" and "/Organizations" authority: https://youtu.be/B416AxHoMJ4?t=1278)
     public partial class MainWindow : Window
     {
         public IPublicClientApplication _clientApp = null;
